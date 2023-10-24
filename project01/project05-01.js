@@ -54,7 +54,7 @@ function countdown() {
       if (totalCorrect === correctAnswers.length) { 
          alert("Congratulations! You got 100%!");
       } else {
-         alert(`You got ${correctAnswers.length - totalCorrect} incorrect answers out of ${correctAnswers.length} questions.`);
+         alert(`You got ${totalCorrect} correct answers out of ${correctAnswers.length} questions.`);
          timeLeft = quizTime; 
          quizClock.value = timeLeft; 
          overlay.className = "hidequiz"; 
